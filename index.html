@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Host</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="assets/js/scripts.js" defer></script>
+
+    <link rel="shortcut icon" href="assets/img/cloud-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navigation-container">
+                <div class="logo">
+                    <a href="#">
+                        <h1>Cloud.</h1>
+                    </a>
+                </div>
+
+                <div class="navbar-links">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link selected">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Planos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Parceiros</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <div class="theme-button">
+                    <i class="fa-solid fa-sun" id="theme-icon"></i>
+                </div>
+
+                <div class="login-container">
+                    <button class="btn-transparent">Registre-se</button>
+                    <button class="btn-solid">Entrar</button>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <i class="fa-solid fa-bars" id="mobile-menu-icon"></i>
+                </div>
+            </div>
+        </nav>
+        <div id="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link selected">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Planos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Parceiros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+            </ul>
+
+            <div class="login-container">
+                <button class="btn-transparent">Registre-se</button>
+                <button class="btn-solid">Entrar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mobile-align">
+            <div class="banner-container">
+                <div class="text-area">
+                    <h3>Os <span>melhores serviços</span> de <br> hospedagem <span>você encontra</span> aqui.</h3>
+                    <p>Publique o seu site na web com os nossos poderosos servidores,
+                        controle seu site em poucos cliques com o nosso painel de controle
+                        e encontre o domínio perfeito para o seu site.</p>
+                    <form class="search">
+                        <input type="text" id="search-input"
+                            placeholder="Verifique se o domínio do seu site está disponível...">
+                        <button type="submit" id="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <div class="bottom-btns-container">
+                        <button class="btn-solid">Saiba mais</button>
+                        <button class="btn-transparent">Conheça nossos clientes</button>
+                    </div>
+                </div>
+                <div class="banner-img">
+                    <img src="assets/img/banner-img.svg" alt="Host">
+                </div>
+            </div>
+        </div>
+
+        <div class="benefits-container">
+            <div class="benefits-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h4>Performance</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-solid">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="benefits-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-lock"></i>
+                    <h4>Segurança</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-solid">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="benefits-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-headset"></i>
+                    <h4>Suporte 24hrs</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-solid">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="plans-header">
+            <h3>Planos e Ofertas</h3>
+            <p>Encontre o plano que atende ao que você está buscando</p>
+        </div>
+        <div class="plans-container">
+            <div class="plan">
+                <div class="plan-header">
+                    <h4 class="plan-title">Cloud Júnior</h4>
+                    <div class="plan-price">
+                        <h4>R$14,99</h4>
+                        <p>/ por mês</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 1 Site</li>
+                    <li><i class="fa-solid fa-check"></i> 50GB de Armazenamento</li>
+                    <li class="plan-none"><i class="fa-solid fa-close"></i> Criador de Sites da Cloud</li>
+                    <li class="plan-none"><i class="fa-solid fa-close"></i> Domínio grátis</li>
+                    <li><i class="fa-solid fa-check"></i> 1 Conta de e-mail</li>
+                    <li><i class="fa-solid fa-check"></i> Suporte 24hrs</li>
+                    <li class="plan-none"><i class="fa-solid fa-close"></i> C-panel</li>
+                    <li class="plan-none"><i class="fa-solid fa-close"></i> Prioridade no Atendimento</li>
+                </ul>
+                <div class="buy-container">
+                    <button class="btn-transparent">Adquirir Plano</button>
+                </div>
+            </div>
+
+            <div class="plan" id="popular">
+                <div class="plan-header">
+                    <div class="popular-title">
+                        <h4 class="plan-title">Cloud Pleno</h4>
+                        <p>Popular</p>
+                    </div>
+                    <div class="plan-price">
+                        <h4>R$29,99</h4>
+                        <p>/ por mês</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 10 Sites</li>
+                    <li><i class="fa-solid fa-check"></i> 100GB de Armazenamento</li>
+                    <li><i class="fa-solid fa-check"></i> Criador de Sites da Cloud</li>
+                    <li><i class="fa-solid fa-check"></i> Domínio grátis</li>
+                    <li><i class="fa-solid fa-check"></i> 20 Contas de e-mail</li>
+                    <li><i class="fa-solid fa-check"></i> Suporte 24hrs</li>
+                    <li><i class="fa-solid fa-check"></i> C-panel</li>
+                    <li class="plan-none"><i class="fa-solid fa-close"></i> Prioridade no Atendimento</li>
+                </ul>
+                <div class="buy-container">
+                    <button class="btn-solid">Adquirir Plano</button>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="plan-header">
+                    <h4 class="plan-title">Cloud Expert</h4>
+                    <div class="plan-price">
+                        <h4>R$59,99</h4>
+                        <p>/ por mês</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 100 Sites</li>
+                    <li><i class="fa-solid fa-check"></i> 200GB de Armazenamento</li>
+                    <li><i class="fa-solid fa-check"></i> Criador de Sites da Cloud</li>
+                    <li><i class="fa-solid fa-check"></i> Domínio grátis</li>
+                    <li><i class="fa-solid fa-check"></i> 200 Contas de e-mail</li>
+                    <li><i class="fa-solid fa-check"></i> Suporte 24hrs</li>
+                    <li><i class="fa-solid fa-check"></i> C-panel</li>
+                    <li><i class="fa-solid fa-check"></i> Prioridade no Atendimento</li>
+                </ul>
+                <div class="buy-container">
+                    <button class="btn-transparent">Adquirir Plano</button>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="plan-header">
+                    <h4 class="plan-title">Cloud Business</h4>
+                    <div class="plan-price">
+                        <h4>R$89,99</h4>
+                        <p>/ por mês</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 300 Sites</li>
+                    <li><i class="fa-solid fa-check"></i> 250GB de Armazenamento</li>
+                    <li><i class="fa-solid fa-check"></i> Criador de Sites da Cloud</li>
+                    <li><i class="fa-solid fa-check"></i> Domínio grátis</li>
+                    <li><i class="fa-solid fa-check"></i> Contas de e-mail ilimitadas</li>
+                    <li><i class="fa-solid fa-check"></i> Suporte 24hrs</li>
+                    <li><i class="fa-solid fa-check"></i> C-panel</li>
+                    <li><i class="fa-solid fa-check"></i> Prioridade no Atendimento</li>
+                </ul>
+                <div class="buy-container">
+                    <button class="btn-transparent">Adquirir Plano</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="plans-mobile">
+            <div class="plans-mobile-img">
+                <img src="assets/img/plans-mobile.svg" alt="Adicione ao carrinho">
+            </div>
+            <div class="plans-mobile-button">
+                <button class="btn-solid">Ver Planos</button>
+            </div>
+        </div>
+
+        <div class="quote-container">
+            <div class="quote-img">
+                <img src="assets/img/quote-img.jpg" alt="Homem de terno">
+            </div>
+            <div class="quote-components">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                    Eu pude <span>gerenciar a hospedagem</span>, o domínio e personalizar meu
+                    site com os <span>designs únicos</span> da Cloud, tudo <span>em um só lugar</span>
+                    , isso realmente me deixou muito satisfeito.
+                </p>
+                <a href="#">Ler avaliação completa</a>
+                <hr>
+                <h4>Carlos Alcaraz</h5>
+                    <p class="quote-p2">Empreendedor</p>
+            </div>
+        </div>
+
+        <div class="reviews-header">
+            <h3>Aprovada por mais de 1 milhão de usuários no mundo</h3>
+        </div>
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="user-profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="user-details">
+                        <h5>Luiza Silveira</h5>
+                        <p>Designer Gráfica</p>
+                    </div>
+                </div>
+                <div class="review-body">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum alias asperna labore, ab ex
+                        fuga voluptatum quibusar saepe odio vero quis, abneiro lathar as abnuruk zeptar octanov, fuga
+                        voluptatu sit amet alias consectetur.</p>
+                </div>
+                <div class="review-bottom">
+                    <a href="#">Ler avaliação completa</a>
+                </div>
+            </div>
+
+            <div class="review-card review-mobile-hidden">
+                <div class="review-top">
+                    <div class="user-profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="user-details">
+                        <h5>Oscar Martinez</h5>
+                        <p>Desenvolvedor Web</p>
+                    </div>
+                </div>
+                <div class="review-body">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum alias asperna labore, ab ex
+                        fuga voluptatum quibusar saepe odio vero quis, abneiro lathar as abnuruk zeptar octanov, fuga
+                        voluptatu sit amet alias consectetur.</p>
+                </div>
+                <div class="review-bottom">
+                    <a href="#">Ler avaliação completa</a>
+                </div>
+            </div>
+
+            <div class="review-card review-mobile-hidden">
+                <div class="review-top">
+                    <div class="user-profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="user-details">
+                        <h5>Lucas Santos</h5>
+                        <p>Empreendedor</p>
+                    </div>
+                </div>
+                <div class="review-body">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum alias asperna labore, ab ex
+                        fuga voluptatum quibusar saepe odio vero quis, abneiro lathar as abnuruk zeptar octanov, fuga
+                        voluptatu sit amet alias consectetur.</p>
+                </div>
+                <div class="review-bottom">
+                    <a href="#">Ler avaliação completa</a>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-footer">
+            <button class="btn-transparent">Conferir mais avaliações de clientes</button>
+        </div>
+
+        <div class="support-container">
+            <div class="support-header">
+                <h3>Precisando de ajuda?</h3>
+                <p>Deixe a sua dúvida e um dos nossos especialistas irá te responder em menos de 24hrs!</p>
+            </div>
+            <div class="support-components">
+                <form class="support-form">
+                    <div class="support-inputs">
+                        <label for="name-input">Nome:</label>
+                        <input type="text" name="name-input" id="name-input" placeholder="Digite o seu nome...">
+
+                        <label for="email-input">E-mail:</label>
+                        <input type="email" name="email-input" id="email-input" placeholder="Digite o seu e-mail...">
+
+                        <label for="answers-area">Qual é sua dúvida?</label>
+                        <textarea name="answers-area" id="answers-area"
+                            placeholder="Descreva qual é o seu problema..."></textarea>
+                    </div>
+
+                    <div class="support-buttons">
+                        <button class="btn-transparent" id="clear-btn">Limpar</button>
+                        <button type="submit" class="btn-solid">Enviar</button>
+                    </div>
+                </form>
+                <div class="support-img">
+                    <img src="assets/img/faq-img.svg" alt="Support">
+                </div>
+            </div>
+            <div class="mobile-support-button">
+                <button class="btn-solid">Contate-nos</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <a href="#" class="footer-logo">
+                    <h1>Cloud.</h1>
+                </a>
+                <p>Fazendo seus sonhos voarem.</p>
+
+                <div id="footer-social-media">
+                    <a href="#" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="mobile-footer-container">
+                <ul class="footer-list">
+                    <li>
+                        <h3>Informações</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Opiniôes de Clientes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Termos de Migração</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Mapa do Site</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Sobre nós</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Sobre a Cloud</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Nossa Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Carreira</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Suporte</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Tutoriais</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Base de Conhecimento</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Fale Conosco</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Denunciar Abuso</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer-copyright">
+            &#169
+            2024 all rights reserv
+        </div>
+    </footer>
+</body>
+
+</html>

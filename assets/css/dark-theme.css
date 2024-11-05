@@ -1,0 +1,178 @@
+:root {
+    --color-d-light-50: #f8f8f8;
+    --color-d-light-100: #ececec;
+    --color-d-light-150: #dad2d8;
+
+    --color-d-dark-50: #3d3d3d;
+    --color-d-dark-100: #202020;
+    --color-d-dark-150: #0e0e0e;
+
+    --color-d-gray-50: #636363;
+    --color-d-gray-100: #424242;
+
+    --color-d-blue-50: #35a7ff;
+    --color-d-blue-100: #369ff0;
+}
+
+.dark {
+    background: var(--color-d-dark-150);
+}
+
+/* Navbar */
+
+.dark .navbar-links a {
+    color: var(--color-d-light-50);
+}
+
+.dark .buttons-container .theme-button {
+    border: 1px solid var(--color-d-dark-50);
+    padding: 0.3rem 2rem 0.3rem 0.4rem !important;
+}
+
+.dark .theme-button:hover {
+    background: var(--color-d-dark-100);
+}
+
+.dark .theme-button i {
+    color: var(--color-d-light-100);
+}
+
+.dark #mobile-menu-icon {
+    color: var(--color-d-light-50);
+}
+
+.dark #mobile-menu {
+    border-bottom: 1px solid var(--color-d-gray-100);
+}
+
+.dark #mobile-menu a {
+    color: var(--color-d-light-50);
+}
+
+/* Conteúdo */
+
+ /* Banner */
+.dark .text-area h3 {
+    color: var(--color-d-light-50);
+}
+
+.dark .text-area p {
+    color: var(--color-d-gray-50);
+}
+
+.dark .search #search-input {
+    color: var(--color-d-light-50);
+}
+
+.dark #search-btn i {
+    color: var(--color-d-light-150);
+}
+
+ /* Beneficios */
+.dark .card-header h4 {
+    color: var(--color-d-light-50);
+}
+
+.dark .card-body p {
+    color: var(--color-d-gray-50);
+}
+
+ /* Planos */
+.dark .plans-header h3 {
+    color: var(--color-d-light-50);
+}
+
+.dark .plans-header p {
+    color: var(--color-d-gray-50);
+}
+
+.dark .plan .plan-price h4 {
+    color: var(--color-d-light-50);
+}
+
+.dark .plan .plan-price p {
+    color: var(--color-d-gray-50);
+}
+
+.dark .plan li {
+    color: var(--color-d-light-100);
+}
+
+.dark i.fa-close {
+    color: var(--color-d-gray-50);
+}
+
+.dark li.plan-none {
+    color: var(--color-d-gray-50);
+}
+
+/* Citação */
+.dark .quote-components p {
+    color: var(--color-d-light-50);
+}
+
+.dark .quote-components h4 {
+    color: var(--color-d-light-50);
+}
+
+.dark .quote-components .quote-p2 {
+    color: var(--color-d-gray-50);
+}
+
+/* Avaliações */
+.dark .reviews-header h3 {
+    color: var(--color-d-light-50);
+}
+
+.dark .review-top h5 {
+    color: var(--color-d-light-50);
+}
+
+.dark .review-top p {
+    color: var(--color-d-gray-50);
+}
+
+.dark .review-body p {
+    color: var(--color-d-gray-50);
+}
+
+/* Suporte */
+.dark .support-header h3 {
+    color: var(--color-d-light-50);
+}
+
+.dark .support-header p {
+    color: var(--color-d-gray-50);
+}
+
+.dark .support-inputs input,
+.dark .support-inputs textarea {
+    color: var(--color-d-light-50);
+}
+
+.dark .support-inputs input:focus,
+.dark .support-inputs textarea:focus {
+    border: none;
+}
+
+/* Footer */
+.dark #footer-content {
+    background: var(--color-d-dark-100);
+}
+
+.dark #footer-contacts p {
+    color: var(--color-d-gray-100);
+}
+
+.dark .footer-list h3 {
+    color: var(--color-d-light-50);
+}
+
+.dark .footer-list a {
+    color: var(--color-d-gray-100);
+}
+
+.dark #footer-copyright {
+    background: var(--color-d-dark-100);
+    color: var(--color-d-gray-50);
+}
